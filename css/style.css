@@ -74,7 +74,7 @@ ol {
 .section-title h2 {
 	display: inline-block;
 	position: relative;
-	margin-bottom: 110px;
+	margin-bottom: 60px;
 	padding-bottom: 2px;
 	line-height: normal;
 }
@@ -238,7 +238,7 @@ ol {
 
 /* Fact box */
 .fact-box {
-	height: 375px;
+	height: 300px;
 	display: table;
 	width: 100%;
 	background: #40424a;
@@ -249,7 +249,6 @@ ol {
 }
 
 .fact-box .fact-content {
-	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 }
@@ -450,6 +449,7 @@ ol {
 	background: #f9f9f9;
 	position: relative;
 	z-index: 5;
+	float: right;
 }
 
 .social-section .social-links a {
@@ -464,7 +464,7 @@ ol {
 
 .social-section .social-link-warp h2 {
 	display: inline-block;
-	float: right;
+	float: left;
 	font-weight: 400;
 	padding-left: 30px;
 	background: #f9f9f9;
@@ -500,7 +500,8 @@ ol {
 }
 
 .resume-list li {
-	margin-bottom: 120px;
+	padding-top: 10px;
+	margin-bottom: 70px;
 	position: relative;
 }
 
@@ -521,7 +522,7 @@ ol {
 }
 
 .resume-list h2 {
-	font-size: 72px;
+	font-size: 50px;
 	margin-bottom: 10px;
 }
 
@@ -530,7 +531,7 @@ ol {
 	text-transform: uppercase;
 	color: #808181;
 	margin-top: 10px;
-	margin-bottom: 45px;
+	margin-bottom: 20px;
 }
 
 .resume-list p {
@@ -753,7 +754,7 @@ ol {
 
 .home-two-style .hero-image {
 	padding-left: 0px;
-	padding-top: 200px;
+	padding-top: 50px;
 }
 
 .home-two-style .hero-image img {
@@ -1212,7 +1213,7 @@ ol {
 
 @media only screen and (max-width: 1600px) {
 	.hero-text h2 {
-		font-size: 120px;
+		font-size: 100px;
 	}
 }
 

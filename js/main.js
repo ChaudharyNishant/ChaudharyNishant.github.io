@@ -134,6 +134,75 @@ if($().circleProgress){
 		fill: "#009fff",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
+	
+	//Set progress circle white Nishant Java
+	$("#progressJava").circleProgress({
+		value: 0.90,
+		size: 175,
+		thickness: 2,
+		fill: "#ffffff",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
+	
+	//Set progress circle white Nishant C
+	$("#progressC").circleProgress({
+		value: 0.85,
+		size: 175,
+		thickness: 2,
+		fill: "#ffffff",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
+	
+	//Set progress circle white Nishant C++
+	$("#progressCpp").circleProgress({
+		value: 0.85,
+		size: 175,
+		thickness: 2,
+		fill: "#ffffff",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
+	
+	//Set progress circle white Nishant Python
+	$("#progressPython").circleProgress({
+		value: 0.75,
+		size: 175,
+		thickness: 2,
+		fill: "#ffffff",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
+	
+	//Set progress circle white Nishant Android
+	$("#progressAndroid").circleProgress({
+		value: 0.90,
+		size: 175,
+		thickness: 2,
+		fill: "#ffffff",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
+	//Set progress circle white Nishant HTML
+	$("#progressHTML").circleProgress({
+		value: 0.75,
+		size: 175,
+		thickness: 2,
+		fill: "#ffffff",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
+	//Set progress circle white Nishant CSS
+	$("#progressCSS").circleProgress({
+		value: 0.75,
+		size: 175,
+		thickness: 2,
+		fill: "#ffffff",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
+	//Set progress circle white Nishant JavaFX
+	$("#progressJavaFX").circleProgress({
+		value: 0.85,
+		size: 175,
+		thickness: 2,
+		fill: "#ffffff",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
 }
 
 })(jQuery);
