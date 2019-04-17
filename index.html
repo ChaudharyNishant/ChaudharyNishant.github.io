@@ -7,7 +7,7 @@
 	<meta name="keywords" content="resume, civic, onepage, creative, html, nishant, chaudhary">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<link href="img/icon.png" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
@@ -401,17 +401,17 @@
 						<div class="section-title">
 							<h2>Contact Me</h2>
 						</div>
-						<form class="contact-form">
+						<form method="post" action="send_mail.php" class="contact-form">
 							<div class="row">
 								<div class="col-md-6">
-									<input type="text" placeholder="Name">
+									<input type="text" name="name" placeholder="Name">
 								</div>
 								<div class="col-md-6">
-									<input type="text" placeholder="E-mail">
+									<input type="text" name="email" placeholder="E-mail">
 								</div>
 								<div class="col-md-12">
-									<input type="text" placeholder="Subject">
-									<textarea placeholder="Message"></textarea>
+									<input type="text" name="subject" placeholder="Subject">
+									<textarea name="message" placeholder="Message"></textarea>
 								</div>
 							</div>
 							<div class="text-md-right">
