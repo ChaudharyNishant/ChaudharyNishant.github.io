@@ -49,6 +49,10 @@
 	width: 100%;
 }
 
+.databaseListItem {
+	margin: 0px 20px;
+}
+
 @media (max-width: 1200px) {
     .nishantHeaderItem { display: none;}
 	.homeLogo {display: inline; padding: 0px 10px;}
