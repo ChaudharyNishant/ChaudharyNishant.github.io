@@ -123,7 +123,7 @@ if($().circleProgress){
 	});
 	
 	//Set progress circle white Nishant Java
-	$("#progressJava").circleProgress({
+	$("#progressPython").circleProgress({
 		value: 0.90,
 		size: 175,
 		thickness: 2,
@@ -132,7 +132,7 @@ if($().circleProgress){
 	});
 	
 	//Set progress circle white Nishant C++
-	$("#progressCpp").circleProgress({
+	$("#progressAzure").circleProgress({
 		value: 0.85,
 		size: 175,
 		thickness: 2,
@@ -141,8 +141,8 @@ if($().circleProgress){
 	});
 	
 	//Set progress circle white Nishant Android
-	$("#progressAndroid").circleProgress({
-		value: 0.80,
+	$("#progressPySpark").circleProgress({
+		value: 0.85,
 		size: 175,
 		thickness: 2,
 		fill: "#ffffff",
